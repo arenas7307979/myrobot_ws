@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="joy" name="joy_node" type="">
+  </node>
+
+  <node pkg="teleop_twist_joy" name="teleop_twist_joy" type="">
+  </node>
+</launch>
